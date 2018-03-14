@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  aglcatsconsumer:
+    image: "damonf8086/aglcatsconsumer:${TAG}"
+    build:
+      context: .
+      dockerfile: src/CatsConsumer/Dockerfile
